@@ -84,6 +84,41 @@ public class Main {
         System.out.println("Кристина станет получать "+ K5_10 + " руб., годовой доход составит "+ K5G_10 +
                 " руб., на " + K5GR+ " руб. в год больше");
 
+        //задача 6*
+        System.out.println("Задача 6*");
+        int a6=12;
+        int b6=27;
+        int c6=44;
+        int d6=15;
+        int e6=9;
+        int resultPr6=a6*(b6+(c6-d6*e6));
+        System.out.println("Результат прямого вычисления: " + resultPr6);
+        int resultOb6=(resultPr6-(2*resultPr6));
+        System.out.println("Результат преобразования: " + resultOb6);
+        //более простой вариант: int resultOb6=(resultPr6*(-1)); , но первым делом подумалось именно про двойное вычитание
+
+        //задача 7*
+        System.out.println("Задача 7*");
+        int a7=5;
+        int b7=7;
+        System.out.println("Переменная а=" + a7 + ", переменная b=" + b7);
+        int resulta7=(a7*7);
+        int resultb7=(b7*5);
+        System.out.println("Переменная а=" + resulta7 + ", переменная b=" + resultb7);
+        int resulta7K=(resulta7/5);
+        int resultb7K=(resultb7/7);
+        System.out.println("Переменная а=" + resulta7K + ", переменная b=" + resultb7K);
+
+        //задача 8*
+        System.out.println("Задача 8*");
+        int a8=971;
+        int resulta8d10 = (int)Math.floor(a8/10);
+        System.out.println("десятки от а " + resulta8d10);
+        int resulta8d100 = (int)Math.floor(a8/100);
+        System.out.println("сотни от а " + resulta8d100);
+        int resultb8 = (resulta8d10-(resulta8d100*10));
+        System.out.println("b=" + resultb8);
+
 
     }
 }
