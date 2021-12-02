@@ -109,6 +109,18 @@ public class Main {
         int resultb7K=(resultb7/7);
         System.out.println("Переменная а=" + resulta7K + ", переменная b=" + resultb7K);
 
+        //задача 7**
+        System.out.println("Задача 7**");
+        int a71=5;
+        int b71=7;
+        System.out.println("Переменная а=" + a71 + ", переменная b=" + b71);
+        int resulta71=(a71*b71);
+        int resultb71=(b71*a71);
+        System.out.println("Переменная а=" + resulta71 + ", переменная b=" + resultb71);
+        int resulta71K=(resulta71/a71);
+        int resultb71K=(resultb71/b71);
+        System.out.println("Переменная а=" + resulta71K + ", переменная b=" + resultb71K);
+
         //задача 8*
         System.out.println("Задача 8*");
         int a8=971;
